@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.top-wrapper {
+    width: 100%;
+    background-color: #0071A9;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+.rating-top-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+.rating-wrapper {
+    width: 100%;
+    height: 50%;
+    background-color: #0073D0;
+    text-align: center;
+}
+.people-rating {
+    background-color: #026BB8;
+    width: 90%;
+    position: relative;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.profile-image {
+    border-radius: 10px;
+    width: 30%;
+}
+.text-profile-wrapper {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 15px;
+}

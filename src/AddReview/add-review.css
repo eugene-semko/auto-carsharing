@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.wrapper {
+    background: #338FDA;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.car-model-input {
+
+    padding: 10%;
+    padding-top: 10%;
+}
+.car-model-input > input {
+    border: 0px;
+    border-radius: 5px;
+   background: white;
+   font-family: 'Roboto', sans-serif;
+   outline: none;
+    width: 100%;
+    height: 30px;
+}
+.car-federal-number {
+    padding: 10%;
+}
+.car-federal-number > input {
+    border: 0px;
+    border-radius: 5px;
+   background: white;
+   font-family: 'Roboto', sans-serif;
+   outline: none;
+    width: 100%;
+    height: 30px;
+}
+.carsharing-name {
+    padding: 10%;
+}
+.carsharing-name > input {
+    border: 0px;
+    border-radius: 5px;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+     width: 100%;
+     height: 30px;
+}
+.review {
+    padding: 10%;
+    padding-bottom: 5%;
+}
+.review > input {
+    border: 0px;
+    border-radius: 5px;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+.add-file {
+    padding: 5%;
+    padding-left: 10%;
+}
+.rating {
+    padding: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.rating > input {
+    margin-left: 10%;
+    width: 70%;
+}
+.send-review {
+    padding: 10%;
+    padding-top: 0;
+    margin-bottom: 20%;
+}
+.send-review > input {
+    border: none;
+    border-radius: 5px;
+    background-color: #0073D0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 100%;
+    height: 40px;
+}

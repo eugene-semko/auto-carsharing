@@ -1,0 +1,42 @@
+.reviews-wrapper {
+    width: 100%;
+    height: 66%;
+    position: fixed;
+    top:24%;
+    text-align: center;
+}
+.open-reviews {
+    background-color: #0073D0;
+    color: white;
+    height: 10%;
+    
+    transition: 0.5s;
+}
+.open-reviews-rectangle {
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.open-reviews--active {
+    height: 100%;
+    transition: 0.5s;
+}
+.open-reviews-rectangle--active {
+    position: fixed;
+    top: 86%;   
+    width: 100%;
+    transition: 0.5s;
+}
+.reviews-invisible {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.reviews-visible {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}

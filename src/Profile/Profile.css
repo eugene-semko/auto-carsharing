@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+.profile {
+    position: absolute;
+    height: 24%;
+    width: 100%;
+    background: #0071A9;
+    text-align: center;
+    z-index: 100;
+}
+.about-profile > img{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 5%;
+    top: 25%;
+
+    border-radius: 5px;
+}
+.profile-text {
+    margin-top: 10%;
+}
+.profile-text > div {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
